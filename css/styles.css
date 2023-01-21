@@ -18,7 +18,31 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
-footer {background-color: var(--dark-text-color);}
+footer {
+    background-color: var(--dark-text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-container,
+.nav-list,
+.nav
+.contact-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 .link {
     text-decoration: none;
@@ -50,6 +74,7 @@ footer {background-color: var(--dark-text-color);}
     line-height: 1.33;
     font-size: 18px;
     letter-spacing: 0.03em;
+    display: block;
 }
 .logo-dark {
     color: var(--dark-text-color);
@@ -90,11 +115,13 @@ footer {background-color: var(--dark-text-color);}
 .hero-button {
     background-color: var(--primary-brand-color);
     color: var(--background-color);
+
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    
     cursor: pointer;
 }
 
@@ -127,6 +154,12 @@ footer {background-color: var(--dark-text-color);}
 
 /* PORTFOLIO STYLES */
 
+.container-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .filter-btn {
     background-color:var(--secondary-background-color) ;
     font-family: 'Roboto';
@@ -139,6 +172,8 @@ footer {background-color: var(--dark-text-color);}
     letter-spacing: 0.04em;
     color: var(--primary-brand-color);
     cursor: pointer;
+    border-radius: 4px;
+    gap: 24;
 }
 
 .filter-btn:hover,
