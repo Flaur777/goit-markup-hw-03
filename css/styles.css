@@ -57,6 +57,10 @@ p {
     gap: 40px;
 }
 
+.contact-list{
+    margin-left: auto;
+}
+
 .container {
     max-width: 1128px; 
     padding: 0 15px;
@@ -119,9 +123,11 @@ p {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     
     color: var(--background-color);
+
+    margin-bottom: 48px;
+    width: 496px;
 }
 .visually-hidden {
     position: absolute;
@@ -141,6 +147,11 @@ p {
     background-color: var(--dark-text-color);
 }
 
+.hero-container {
+    text-align: center;
+    width: 496px;
+}
+
 .hero-button {
     background-color: var(--primary-brand-color);
     color: var(--background-color);
@@ -156,11 +167,6 @@ p {
 
 .hero-button:hover {
     background-color: var(--hover-button-color);
-}
-
-.hero-container {
-    text-align: center;
-    width: 500px;
 }
 
 .subtitle {
