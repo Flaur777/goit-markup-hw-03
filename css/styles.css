@@ -18,6 +18,12 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
+
+header {
+    /* outline: 1px solid #2E2F42; */
+    border-bottom: 1px solid #E7E9FC;
+}
+
 footer {
     background-color: var(--dark-text-color);
 }
@@ -35,12 +41,26 @@ p {
 }
 
 .nav-container,
+.nav,
 .nav-list,
-.nav
 .contact-list {
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+
+.nav-container {
+    justify-content: space-between;
+}
+
+.nav-list,
+.contact-list {
+    gap: 40px;
+}
+
+.container {
+    max-width: 1128px; 
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 
@@ -50,7 +70,10 @@ p {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    
+    padding: 24px 0;
 }
+
 .contact-link {
     color: var(--main-text-color); 
     font-weight: 400;
@@ -75,6 +98,8 @@ p {
     font-size: 18px;
     letter-spacing: 0.03em;
     display: block;
+
+    margin-right: 76px;
 }
 .logo-dark {
     color: var(--dark-text-color);
