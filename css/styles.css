@@ -125,6 +125,11 @@ p {
   color: var(--secondary-background-color);
 }
 
+.footer {
+    padding: 16px 0;
+    width: 115px;
+}
+
 /* INDEX.HTML STYLES */
 
 .hero-title {
