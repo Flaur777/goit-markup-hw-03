@@ -11,6 +11,7 @@
 }
 
 /* GLOBAL STYLES */
+
 body {
     background-color: var(--background-color);
     font-family: 'Roboto', sans-serif;
@@ -20,7 +21,6 @@ body {
 }
 
 header {
-    /* outline: 1px solid #2E2F42; */
     border-bottom: 1px solid #E7E9FC;
 }
 
@@ -113,12 +113,14 @@ p {
 }
 
 /* INDEX.HTML STYLES */
+
 .hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    
     color: var(--background-color);
 }
 .visually-hidden {
@@ -135,7 +137,9 @@ p {
     overflow: hidden;
 }
 
-.hero-section {background-color: var(--dark-text-color);}
+.hero-section {
+    background-color: var(--dark-text-color);
+}
 
 .hero-button {
     background-color: var(--primary-brand-color);
@@ -152,6 +156,11 @@ p {
 
 .hero-button:hover {
     background-color: var(--hover-button-color);
+}
+
+.hero-container {
+    text-align: center;
+    width: 500px;
 }
 
 .subtitle {
