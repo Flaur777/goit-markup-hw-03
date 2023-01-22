@@ -145,6 +145,7 @@ p {
 
 .hero-section {
     background-color: var(--dark-text-color);
+    padding: 188px 0;
 }
 
 .hero-container {
@@ -180,6 +181,22 @@ p {
     line-height: 1.11;
     text-align: center;
     color: var(--dark-text-color);
+}
+
+.features-section {
+    padding: 120px 0;
+}
+
+.features-list {
+    display: flex;
+}
+
+.features-item {
+    flex-basis: calc((100%-72px)/4);
+}
+
+.name {
+    margin-bottom: 8px;
 }
 
 .team {
