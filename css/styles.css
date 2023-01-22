@@ -276,10 +276,17 @@ p {
 
 /* PORTFOLIO STYLES */
 
+.portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .container-btn {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
 }
 
 .filter-btn {
@@ -292,14 +299,24 @@ p {
     align-items: center;
     text-align: center;
     letter-spacing: 0.04em;
+    
     color: var(--primary-brand-color);
     cursor: pointer;
+    
     border-radius: 4px;
-    gap: 24;
+    padding: 12px 24px;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--hover-button-color) ;
     color: var(--background-color);
+}
+
+.picture-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
