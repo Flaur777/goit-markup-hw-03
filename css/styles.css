@@ -163,6 +163,11 @@ p {
     letter-spacing: 0.04em;
     
     cursor: pointer;
+
+    padding: 16px 32px;
+
+    border-radius: 4px;
+    border: 0;
 }
 
 .hero-button:hover {
