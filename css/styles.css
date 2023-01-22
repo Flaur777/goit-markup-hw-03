@@ -189,10 +189,18 @@ p {
 
 .features-list {
     display: flex;
+    gap: 24px;
 }
 
 .features-item {
-    flex-basis: calc((100%-72px)/4);
+   flex-basis: calc((100% - 72px) / 4);
+}
+.features-item > p {
+    width: 264px;
+}
+
+.subtitle {
+    margin-bottom: 72px;
 }
 
 .name {
