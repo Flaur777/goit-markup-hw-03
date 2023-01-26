@@ -31,6 +31,8 @@ footer {
 }
 
 .footer-description {
+    margin-top: 16px;
+    
     color: var(--description-color);
     width: 264px;
 }
@@ -53,10 +55,6 @@ p {
 .contact-list {
     display: flex;
     align-items: center;
-}
-
-.nav-container {
-    justify-content: space-between;
 }
 
 .nav-list,
@@ -114,7 +112,6 @@ p {
     line-height: 1.33;
     font-size: 18px;
     letter-spacing: 0.03em;
-    display: block;
 
     margin-right: 76px;
 }
@@ -127,7 +124,6 @@ p {
 
 .footer {
     padding: 16px 0;
-    width: 115px;
 }
 
 /* INDEX.HTML STYLES */
@@ -258,15 +254,12 @@ p {
 .team-item > p {
     text-align: center;
 }
+
+.pic-text {
+    padding: 32px 0;
+    text-align: center;
+}
  
-.team-item > .img {
-    padding-bottom: 32px;
-}
-
-.team-item > .description {
-    padding-bottom: 32px;
-}
-
 .name {
     font-weight: 500;
     font-size: 20px;
